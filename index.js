@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api');
 require("dotenv").config();
 
 // Your bot token from BotFather
-const token = process.env.Telegram_Bot_API;  // <--- Replace with your actual token
+const token = "process.env.Telegram_Bot_API";  // <--- Replace with your actual token
 
 // Create a new bot instance
 const bot = new TelegramBot(token, { polling: true });
