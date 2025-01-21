@@ -1,3 +1,4 @@
+require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 
 // List of Admin user IDs (replace with actual admin IDs)
